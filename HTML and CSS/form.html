@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> Form </title>
+    <link rel="stylesheet" type="text/css" href="styleForm.css">
+    </head>
+    <body>
+        <form class="FormCreds">                
+            <label> Product Name </label><br>
+            <input type="text" id = "PName" ><br>
+            <label> Unit of Measurement </label><br>
+            <input type="text" id = "UoM"><br>
+            <label> Price </label><br>
+            <input type="text" id = "Price"><br>
+            <label> Product Image</label><br>
+            <div class="UploadImg">
+                <button type="button" onclick="buttonClicked()" class="UploadImg">Upload</button>
+                </div>
+            <label>Product Description</label><br>
+            <textarea type="text" id="ProDesc"></textarea><br>
+            <button type="submit">Save</button>
+            <button type="reset">Reset</button>
+            </div>
+
+        </form>
+        <script>
+            function buttonClicked(){
+                alert("Upload Image button has been clicked !!");
+            }
+        </script>
+    </body>
+</html> 
